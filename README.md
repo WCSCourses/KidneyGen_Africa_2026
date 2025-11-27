@@ -4,8 +4,8 @@
 
 ### 25th - 30th January 2026, University of the Witwatersrand, Johannesburg, South Africa.
 
-[Wellcome Connecting Science Course Run Website Link](Add link here) <br /> 
-[Course Time Table 2026](#) <br /> 
+[Course Run Website](https://www.kidneygenafrica.org/kidneygenafrica-training-workshop) <br /> 
+[Course Time Table 2026]() <br /> 
 [Course Informatics Guide](https://github.com/WCSCourses/KidneyGen_Africa_2026/blob/main/Course_InformaticsGuide.md)
 
 ### Summary
@@ -36,7 +36,7 @@ By the end of the course, participants will be able to:
 - [Segun Fatumo](https://www.kidneygenafrica.org/about-us/trainers?id=1150660), Queen Mary University of London & MRC Uganda
 - [June Fabian](https://www.kidneygenafrica.org/about-us/trainers?id=1150661), University of Witwatersrand
 - [Cassianne Robinson-Cohen](https://www.kidneygenafrica.org/about-us/trainers?id=1151548), Department of Medicine at Vanderbilt University Medical Center
-- [Sola Ojewunmi](https://www.kidneygenafrica.org/about-us/trainers?id=1151431, Queen Mary University of London
+- [Sola Ojewunmi](https://www.kidneygenafrica.org/about-us/trainers?id=1151431), Queen Mary University of London
 - [Cristian Pattaro](https://www.kidneygenafrica.org/about-us/trainers?id=1150662), Eurac Research
 - [Jean-Tristan Brandenburg](https://www.kidneygenafrica.org/about-us/trainers?id=1151595), University of Witwatersrand
 - [Eleftheria Zeggini](https://www.kidneygenafrica.org/about-us/trainers?id=1152256), Institute of Translational Genomics in Helmholtz Zentrum München
