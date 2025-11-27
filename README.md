@@ -5,8 +5,8 @@
 ### 25th - 30th January 2026, University of the Witwatersrand, Johannesburg, South Africa.
 
 [Wellcome Connecting Science Course Run Website Link](Add link here) <br /> 
-[Course Time Table YEAR](Add link here) <br /> 
-[Course Informatics Guide](Add link here)
+[Course Time Table 2026](#) <br /> 
+[Course Informatics Guide](https://github.com/WCSCourses/KidneyGen_Africa_2026/blob/main/Course_InformaticsGuide.md)
 
 ### Summary
 
