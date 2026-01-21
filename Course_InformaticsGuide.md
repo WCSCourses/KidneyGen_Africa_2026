@@ -4,9 +4,42 @@
 
 **Software used during the course**      
 
-| Software | Version (if not latest) | Module |Notes |
-|-------------|--------------|----------|-------------|
-| [Software Name](Software link) | Version Details | Module Name| Space for notes |
+| Software | Version (if not latest) | Module | Notes |
+|--------|-------------------------|--------|-------|
+| [Docker](https://www.docker.com/) | Latest stable | All modules | Reproducible analysis environment |
+| [Python](https://www.python.org/) | 3.x (system) | Data handling, QC, plotting | System Python |
+| [NumPy](https://numpy.org/) | Latest | Python analysis | Numerical computing |
+| [SciPy](https://scipy.org/) | Latest | Python analysis | Scientific computing |
+| [pandas](https://pandas.pydata.org/) | Latest | Data wrangling | Tabular data manipulation |
+| [matplotlib](https://matplotlib.org/) | Latest | Visualisation | Plotting and figures |
+| [openpyxl](https://openpyxl.readthedocs.io/) | Latest | Data input | Excel file handling |
+| [Biopython](https://biopython.org/) | Latest | Bioinformatics | Sequence and genomic utilities |
+| [R](https://www.r-project.org/) | Latest (Ubuntu repo) | Statistical analysis | Base R environment |
+| [ggplot2](https://ggplot2.tidyverse.org/) | Latest | Visualisation | GWAS and QC plots |
+| [qqman](https://cran.r-project.org/package=qqman) | Latest | GWAS | Manhattan and QQ plots |
+| [data.table](https://cran.r-project.org/package=data.table) | Latest | Data handling | High-performance tables |
+| [dplyr](https://dplyr.tidyverse.org/) | Latest | Data manipulation | Data transformation |
+| [plyr](https://cran.r-project.org/package=plyr) | Latest | Data manipulation | Legacy workflows |
+| [devtools](https://cran.r-project.org/package=devtools) | Latest | R development | GitHub installs |
+| [httr](https://cran.r-project.org/package=httr) | Latest | Web queries | API access |
+| [BiocManager](https://cran.r-project.org/package=BiocManager) | Latest | Bioconductor | Package management |
+| [AnnotationDbi](https://bioconductor.org/packages/AnnotationDbi/) | Latest | Annotation | Gene and SNP annotation |
+| [MungeSumstats](https://bioconductor.org/packages/MungeSumstats/) | Latest | GWAS | Summary statistics QC |
+| [SNPlocs.Hsapiens.dbSNP155.GRCh38](https://bioconductor.org/) | dbSNP155 | Reference data | SNP locations GRCh38 |
+| [BSgenome.Hsapiens.NCBI.GRCh38](https://bioconductor.org/) | GRCh38 | Reference genome | Human genome |
+| [SNPlocs.Hsapiens.dbSNP155.GRCh37](https://bioconductor.org/) | dbSNP155 | Reference data | SNP locations GRCh37 |
+| [BSgenome.Hsapiens.1000genomes.hs37d5](https://bioconductor.org/) | hs37d5 | Reference genome | 1000 Genomes build |
+| [biomaRt](https://bioconductor.org/packages/biomaRt/) | Latest | Annotation | Ensembl queries |
+| [locusplotr](https://github.com/jeantristanb/locusplotr) | Modified | GWAS visualisation | Course-specific fork |
+| [PLINK](https://www.cog-genomics.org/plink/) | 1.9 | GWAS, QC | Classical GWAS |
+| [PLINK2](https://www.cog-genomics.org/plink/2.0/) | Latest | GWAS | Next-generation GWAS |
+| [bcftools](https://samtools.github.io/bcftools/) | Latest | Variant processing | VCF and BCF tools |
+| [vcftools](https://vcftools.github.io/) | Latest | Variant processing | VCF filtering |
+| [tabix](http://www.htslib.org/) | Latest | Indexing | Compressed genomic files |
+| [bedtools](https://bedtools.readthedocs.io/) | Latest | Genomic intervals | Interval operations |
+| [ADMIXTURE](https://dalexander.github.io/admixture/) | Latest | Population genetics | Ancestry inference |
+| [REGENIE](https://rgcgithub.github.io/regenie/) | Latest | GWAS | Whole-genome regression |
+
 
 ## Informatics Set-Up
 For installation and setup, please refer to the following guides:
