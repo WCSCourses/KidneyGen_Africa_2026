@@ -1,0 +1,28 @@
+PLINK v1.9.0-b.7.11 64-bit (19 Aug 2025)
+Options in effect:
+  --bfile ../3_Data_qc_admixture/afreur_qc_rel_adm
+  --keep ../4_Data_qc_admixte_pheno/qc_pheno.tsv
+  --make-bed
+  --out ../4_Data_qc_admixte_pheno/genotyped_qc
+
+Hostname: n41.core.wits.ac.za
+Working directory: /home/jeantristan/Travail/git/kidneygenafrica_course_january_2026/day4_gwas/code_analyse
+Start time: Wed Nov 12 13:57:15 2025
+
+Random number seed: 1762948635
+127967 MB RAM detected; reserving 63983 MB for main workspace.
+37879 variants loaded from .bim file.
+1190 people (0 males, 0 females, 1190 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to ../4_Data_qc_admixte_pheno/genotyped_qc.nosex .
+--keep: 1171 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1171 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate in remaining samples is exactly 1.
+37879 variants and 1171 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to ../4_Data_qc_admixte_pheno/genotyped_qc.bed +
+../4_Data_qc_admixte_pheno/genotyped_qc.bim +
+../4_Data_qc_admixte_pheno/genotyped_qc.fam ... done.
+
+End time: Wed Nov 12 13:57:16 2025

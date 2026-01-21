@@ -1,0 +1,34 @@
+PLINK v2.0.0-a.6.26LM AVX2 Intel (26 Oct 2025)
+Options in effect:
+  --bfile Data_qc_genotype/afreur_qc
+  --hwe 0.000001
+  --king-cutoff 0.17
+  --make-bed
+  --out Data_qc_genotype/afreur_qc_rel
+
+Hostname: n31.core.wits.ac.za
+Working directory: /home/jeantristan/Travail/git/kidneygenafrica_course_january_2026/day4_gwas
+Start time: Wed Nov 12 13:00:12 2025
+
+Random number seed: 1762945212
+127970 MiB RAM detected, ~125588 available; reserving 63985 MiB for main
+workspace.
+Using up to 20 threads (change this with --threads).
+1526 samples (0 females, 0 males, 1526 ambiguous; 1526 founders) loaded from
+Data_qc_genotype/afreur_qc.fam.
+42982 variants loaded from Data_qc_genotype/afreur_qc.bim.
+Note: No phenotype data present.
+Calculating allele frequencies... done.
+--hwe: 5103 variants removed due to Hardy-Weinberg exact test (founders only).
+37879 variants remaining after main filters.
+--king-cutoff pass 1/1: Scanning for rare variants... done.
+2845 variants handled by initial scan (35034 remaining).
+--king-cutoff: 37879 variants processed.
+--king-cutoff: Excluded sample IDs written to
+Data_qc_genotype/afreur_qc_rel.king.cutoff.out.id , and 1208 remaining sample
+IDs written to Data_qc_genotype/afreur_qc_rel.king.cutoff.in.id .
+Writing Data_qc_genotype/afreur_qc_rel.fam ... done.
+Writing Data_qc_genotype/afreur_qc_rel.bim ... done.
+Writing Data_qc_genotype/afreur_qc_rel.bed ... done.
+
+End time: Wed Nov 12 13:00:12 2025
