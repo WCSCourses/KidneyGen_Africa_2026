@@ -91,6 +91,8 @@ To go deeper into genotype quality control, you can explore additional automated
 
 - **[H3A GWAS QC Pipeline](https://github.com/h3abionet/h3agwas/tree/master/qc)** — a robust, reproducible workflow developed by H3ABioNet for large-scale GWAS datasets. It covers all major QC steps, including missingness, MAF, HWE, relatedness, population structure, and sex checks.
 
+- **[GWAS Tutorial](A tutorial on conducting genome‐wide association studies: Quality control and statistical analysis)** — A tutorial on conducting genome‐wide association studies: Quality control and statistical analysis
+
 - **[QCGWAS (R package)](https://cran.r-project.org/web/packages/QCGWAS/)** — an R-based framework for performing detailed QC and visualization of GWAS data, including automated flagging of problematic variants and individuals.
 
 These tools can help standardize and automate QC across different datasets, ensuring **reproducibility** and **data consistency** before downstream analyses such as imputation or association testing.
@@ -106,7 +108,23 @@ The objective is to exclude any SNPs and individuals that do not meet basic qual
 - Exclude SNPs with a **missingness rate** greater than **0.05** (5%).  
 - Exclude individuals with a **missingness rate** greater than **0.005** (0.5%).
 
-We propose using **PLINK** to perform all these steps in one command.
+### Data Used
+
+The dataset used for this practical session is located in the following directory:
+
+```
+1_Data_beforeqc/
+```
+
+plink file  is :
+
+```
+1_Data_beforeqc/afreur
+```
+
+This dataset contains genotype data **prior to any quality control steps** and will be used as the starting point for all QC procedures described in this exercise.
+
+We propose using **PLINK** and **PLINK2**  to perform all these steps in one command.
 
 ### Common PLINK Arguments (Tips)
 

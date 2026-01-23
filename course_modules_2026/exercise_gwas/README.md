@@ -74,6 +74,11 @@ The goal of this exercise is to:
 ## 🧭 Steps overvies
 
 ### **Part 0 — Understanding Your Data and Software**
+* clone [github](https://github.com/WCSCourses/KidneyGen_Africa_2026)
+```sh
+git clone git@github.com:WCSCourses/KidneyGen_Africa_2026.git
+```
+
 * [`Data_beforeqc`](Data_beforeqc/README.md): dataset sent by your collaborators, containing genotype (PLINK format) and phenotype data.  
 
 ---
