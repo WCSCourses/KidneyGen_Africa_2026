@@ -50,7 +50,7 @@ ggplot(allpheno_pcs,aes(x=Pcs_1,y=Pcs_2, col=Superpopulation))+geom_point()
 ggsave('pcs12_plot.pdf')
 
 write.table(allpheno_pcs[!(allpheno_pcs$with_admixture),!(names(allpheno_pcs) %in% 'with_admixture')], file='../3_Data_qc_admixture/afreur_pheno_qc.tsv' ,row.names=F,col.name=T, sep='\t',quote=F)
-system('../../bin/plink -bfile ../2_Data_qc_genotype/afreur_qc_rel --keep ../3_Data_qc_admixture/afreur_pheno_qc.tsv --make-bed -out ../3_Data_qc_admixture/afreur_qc_rel_adm')
+system('plink2 -bfile ../2_Data_qc_genotype/afreur_qc_rel --keep ../3_Data_qc_admixture/afreur_pheno_qc.tsv --make-bed -out ../3_Data_qc_admixture/afreur_qc_rel_adm')
 
 
 

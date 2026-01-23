@@ -20,5 +20,5 @@ summary(glm(egfr~age+Superpopulation+Sex, data=datapheno2))
 datapheno2$Sex2<-as.integer(as.factor(datapheno2$Sex))
 
 write.table(datapheno2, file='../4_Data_qc_admixte_pheno/qc_pheno.tsv', row.names=F ,col.names=T, quote=F)
-system("../../bin/plink -bfile ../3_Data_qc_admixture/afreur_qc_rel_adm --make-bed -keep ../4_Data_qc_admixte_pheno/qc_pheno.tsv -out ../4_Data_qc_admixte_pheno/genotyped_qc")
+system("plink2 -bfile ../3_Data_qc_admixture/afreur_qc_rel_adm --make-bed -keep ../4_Data_qc_admixte_pheno/qc_pheno.tsv -out ../4_Data_qc_admixte_pheno/genotyped_qc")
 
