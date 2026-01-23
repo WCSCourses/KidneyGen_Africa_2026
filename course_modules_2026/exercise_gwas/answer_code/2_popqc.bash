@@ -1,7 +1,7 @@
 # we performed admixture
 mkdir -p admixture 
-../../bin/plink --bfile genotyped_qc/afreur_pihat --indep-pairwise 50 10 0.1 -out admixture/afreur_pihat
-../../bin/plink --bfile genotyped_qc/afreur_pihat --extract admixture/afreur_pihat.prune.in --make-bed --out admixture//afreur_pihat_indep
+../../bin/plink --bfile ../2_Data_qc_genotype/afreur_qc_rel --indep-pairwise 50 10 0.1 -out admixture/afreur_pihat
+../../bin/plink --bfile ../2_Data_qc_genotype/afreur_qc_rel --extract admixture/afreur_pihat.prune.in --make-bed --out admixture//afreur_pihat_indep
 
 for K in 1 2 3 4 5; \
 do 

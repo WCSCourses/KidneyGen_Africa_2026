@@ -6,8 +6,8 @@ datacv<-fread(text=system('grep CV admixture/*.out', intern=T))
 # K = 2 
 plot(1:5, datacv$V4, type='b')
 # 
-datafam<-read.table('../admixture/afreur_pihat_indep.fam') 
-dataadm<-read.table('../admixture/afreur_pihat_indep.2.Q')
+datafam<-read.table('admixture/afreur_pihat_indep.fam') 
+dataadm<-read.table('admixture/afreur_pihat_indep.2.Q')
 
 # phenotype
 #../1_Data_beforeqc/afreur_pheno.tsv
