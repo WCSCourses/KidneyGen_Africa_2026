@@ -1,4 +1,4 @@
-set -e
+
 # we tested different models using plink2 
 ## no covariable
 plink2  --bfile ../1_Data_beforeqc/afreur --pheno  ../1_Data_beforeqc/afreur_pheno.tsv  --pheno-name egfr -out ../5_association/egfr_beforeqc --glm 'allow-no-covars'
