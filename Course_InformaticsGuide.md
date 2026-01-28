@@ -40,6 +40,25 @@
 | [ADMIXTURE](https://dalexander.github.io/admixture/) | Latest | Population genetics | Ancestry inference |
 | [REGENIE](https://rgcgithub.github.io/regenie/) | Latest | GWAS | Whole-genome regression |
 
+## Conda environments used in the course
+
+Some tools used during the course require specific versions of Python or system libraries. To avoid software conflicts, these tools are installed in separate Conda environments. Each environment contains a defined set of software and should be activated before running the corresponding tools.
+
+### List of Conda environments
+
+| Conda environment | Software included | Purpose |
+|------------------|-------------------|---------|
+| `regenie_env` | regenie | Whole-genome regression GWAS |
+| `saige` | SAIGE | Mixed model association analysis |
+| `vep112` | Ensembl VEP v112 | Variant annotation |
+| `qc_env` | MultiQC, FastQC | Quality control and reporting |
+
+### General Conda commands
+
+Check available Conda environments:
+```bash
+conda info --envs
+
 
 ## Informatics Set-Up
 For installation and setup, please refer to the following guides:
