@@ -42,23 +42,31 @@
 
 ## Conda environments used in the course
 
-Some tools used during the course require specific versions of Python or system libraries. To avoid software conflicts, these tools are installed in separate Conda environments. Each environment contains a defined set of software and should be activated before running the corresponding tools.
+### What is a Conda environment
+A Conda environment is an isolated workspace that contains a specific set of software and library versions. It allows different tools to run without interfering with each other. This is useful when software requires particular versions of Python or system libraries. Only one Conda environment can be active at a time, and switching environments changes which software is available in the command line.
 
-### List of Conda environments
+### Conda environments table
 
-| Conda environment | Software included | Purpose |
-|------------------|-------------------|---------|
-| `regenie_env` | regenie | Whole-genome regression GWAS |
-| `saige` | SAIGE | Mixed model association analysis |
-| `vep112` | Ensembl VEP v112 | Variant annotation |
-| `qc_env` | MultiQC, FastQC | Quality control and reporting |
+| Conda environment name | Software installed | How to activate | How to exit |
+|-----------------------|-------------------|-----------------|-------------|
+| `regenie_env` | regenie | `conda activate regenie_env` | `conda deactivate` |
+| `saige` | SAIGE | `conda activate saige` | `conda deactivate` |
+| `vep112` | Ensembl VEP v112 | `conda activate vep112` | `conda deactivate` |
+| `qc_env` | MultiQC, FastQC | `conda activate qc_env` | `conda deactivate` |
 
-### General Conda commands
+### Useful Conda commands
 
-Check available Conda environments:
+List all available Conda environments:
 ```bash
 conda info --envs
+```
 
+### Important notes 
+- Always activate the correct Conda environment before running the associated software.
+- Running Conda-managed tools outside their environment can cause errors due to version conflicts.
+- The active Conda environment name appears in the terminal prompt.
+
+---
 
 ## Informatics Set-Up
 For installation and setup, please refer to the following guides:
