@@ -5,7 +5,7 @@
 ### 25th - 30th January 2026, University of the Witwatersrand, Johannesburg, South Africa.
 
 [Course Run Website](https://www.kidneygenafrica.org/kidneygenafrica-training-workshop) <br /> 
-[Course Time Table 2026]() <br /> 
+[Course Time Table 2026](https://github.com/WCSCourses/KidneyGen_Africa_2026/blob/main/KGA_workshop_Schedule.pdf) <br /> 
 [Course Informatics Guide](https://github.com/WCSCourses/KidneyGen_Africa_2026/blob/main/Course_InformaticsGuide.md)
 
 ### Summary
@@ -42,6 +42,9 @@ By the end of the course, participants will be able to:
 - [Eleftheria Zeggini](https://www.kidneygenafrica.org/about-us/trainers?id=1152256), Institute of Translational Genomics in Helmholtz Zentrum München
 - [Robert Kalyesubula](https://www.kidneygenafrica.org/about-us/trainers?id=1151549), Makerere University
 - [Andrew Morris](https://www.kidneygenafrica.org/about-us/trainers?id=1152258), University of Manchester
+- [Anette MacLeod](https://www.gla.ac.uk/schools/bohvm/staff/annettemacleod/), University of Glasgow
+- [Anneli Cooper](https://www.gla.ac.uk/schools/bohvm/staff/annelicooper/), University of Glasgow
+- [Walt Adamson](https://www.gla.ac.uk/schools/bohvm/staff/waltadamson/), University of Glasgow
 
 **Wellcome Connecting Science Team**
 
